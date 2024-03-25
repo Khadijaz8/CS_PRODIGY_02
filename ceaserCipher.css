@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #ffffff;
+    text-align: center;
+  }
+  body h1{
+    margin-top: 30px;
+  }
+  .app-container{
+margin: 20px;
+  }
+  #encrypt input{
+    text-align: center;
+    justify-content: center;
+  }
+  .app-container textarea{
+    height:250px;
+    width: 400px;
+    font-size: 18px;
+  }
+.container{
+    height:90vh;
+    width:100vh;
+    text-align: center;
+    border: 2px solid #2c698d;
+    border-radius: 5%;
+    background-color: #e3f6f5;
+    color: #2c698d;
+display: flex;
+flex-direction: column;
+
+}
+#button-container{
+    display: flex;
+    margin:10px;
+    justify-content: center;
+    justify-content: space-evenly;
+
+}
+#encrypt{
+    color:white;
+    background-color: #272643;
+    border:2px;
+border-radius: 5%;
+width: 10rem;
+height: 2rem;
+text-align: center;
+padding: 5px;
+margin:5px;
+
+}
+#decrypt{
+color:#2c698d;
+background-color: lightgray;
+border-radius: 5%;
+width: 10rem;
+height: 2rem;
+border: solid 2px;
+margin:5px;
+}
+#key{
+    height: 2rem;
+    width:3rem;
+    font-size: 16px;
+    text-align: center;
+    
+}
